@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <script src="./descuentos.js"></script>
+    <header>
+        <h1>Aqui tenemos lo pimero de todo lo que estamos apunto de ver </h1>
+    </header>
+    
+    <section>
+        <h2>Calcula los descuentos a un producto</h2>
+    
+        <form action="formulario">
+            <label for="formulario__precio">Introduce aqui tu precio</label>
+            <input type="number" id="formulario__precio">
+
+            <br>
+
+            <label for="formulario__descuento">Introduce aqui el descuento que deseas aplicar</label>
+            <input type="number" id="formulario__descuento">
+
+            <button type="button" onclick="CalcularDescuento()">Calcular el descuento</button>
+
+            <p id="resultPrice"></p>
+        </form>
+    </section>
+</body>
+</html>
